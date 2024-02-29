@@ -317,7 +317,7 @@ You can then build packages in
 
 You can install built packages with
 ```
-sudo xi -f <package>
+xi -f <package>
 ```
 (The `xi` utility is provided by the `xtools` package.)
 
@@ -824,7 +824,7 @@ to build a template.
 
 We use
 ```
-sudo xi -f j4-dmenu-desktop
+xi -f j4-dmenu-desktop
 ```
 to install a template.
 
@@ -1480,7 +1480,7 @@ to build a template.
 
 We use
 ```
-sudo xi -f j4-dmenu-desktop
+xi -f j4-dmenu-desktop
 ```
 to install a template.
 
