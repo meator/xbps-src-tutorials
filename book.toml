@@ -9,9 +9,14 @@ default-theme = "ayu"
 preferred-dark-theme = "ayu"
 curly-quotes = true
 git-repository-url = "https://github.com/meator/xbps-src-tutorials"
+additional-css = ["./mdbook-admonish.css"]
 
 [preprocessor.toc]
 command = "mdbook-toc"
 renderer = ["html"]
+
+[preprocessor.admonish]
+command = "mdbook-admonish"
+assets_version = "3.0.2" # do not edit: managed by `mdbook-admonish install`
 
 #[output.linkcheck]
